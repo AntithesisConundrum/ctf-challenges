@@ -126,8 +126,8 @@ def guessing_game():
                 secret.set(alphabet[i], choice(alphabet))
             # Check if it fits our constraints
             if guess == secret:
-                print "Congratulations! DM me your exploit so I can see how"+\
-                " you did this"
+                print "Congratulations! Send me your exploit so I can see "+\
+                "how you did this"
                 break
             else:
                 print "Sorry, better luck next time.\nYour guess encodes to "+\
